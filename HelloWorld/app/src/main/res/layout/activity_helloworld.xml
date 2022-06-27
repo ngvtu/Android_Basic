@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Xin chao the gioi"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nhập dữ liệu ở đây nhe"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="numberPassword"></EditText>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK">
+    </Button>
+
+</LinearLayout>
